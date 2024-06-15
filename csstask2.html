@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bars</title>
+    <style>
+        /* Vertical Navigation Bar */
+        .vertical-nav {
+            width: 200px;
+            background-color: #999ff3;
+            border-style:solid;
+            
+        }
+        .vertical-nav a {
+            display: block;
+            color: blue;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .vertical-nav a:hover {
+            background-color: orange;
+            color: white;
+        }
+
+        /* Horizontal Navigation Bar */
+        .horizontal-nav {
+            background-color: #e7e7e7;
+            overflow: hidden;
+        }
+        .horizontal-nav a {
+            float: left;
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .horizontal-nav a:hover {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Vertical Navigation Bar</h2>
+    <div class="vertical-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">CSS</a>
+        <a href="#">HTML</a>
+        <a href="#">Bootstrap</a>
+    </div>
+
+    <h2>Horizontal Navigation Bar</h2>
+    <div class="horizontal-nav">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+    </div>
+</body>
+</html>
